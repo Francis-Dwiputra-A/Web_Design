@@ -5,10 +5,18 @@ body {
 }
 
 /* Header/Blog Title */
+/*added content
+-font family : impact (because there isn't any font style)
+-font size: 30px (Because there isn't any font size)
+-color : #101820ff(Because there isn't any font color)
+*/
 .header {
-  padding: 30px;
-  text-align: center;
-  background: #FCF951FF;
+    font-family: impact;
+    font-size: 30px;
+    color: #101820ff;
+    padding: 30px;
+    text-align: center;
+    background: #FCF951FF;
 }
 
 .header h1 {
