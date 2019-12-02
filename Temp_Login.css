@@ -20,6 +20,8 @@ h1{
 	background: white;
 	margin: 80px auto;
 	padding: 30px 20px;
+    /*modified style*/ 
+    border-radius: 20px;
 }
  /* for size of font */
 label{
@@ -32,6 +34,8 @@ label{
 	padding: 10px;
 	font-size: 11pt;
 	margin-bottom: 20px;
+    /*modified style*/ 
+    border-radius: 20px;
 }
  /* for button login */
 .tombol_login{
@@ -40,7 +44,8 @@ label{
 	font-size: 11pt;
 	width: 100%;
 	border: none;
-	border-radius: 3px;
+	/*modified style border-radius: 3px;*/
+    border-radius: 5px;
 	padding: 10px 20px;
 }
  /* for clour link */
