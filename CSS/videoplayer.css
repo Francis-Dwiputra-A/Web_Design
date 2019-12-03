@@ -1,24 +1,24 @@
 /* for the position div */
 .media{
-  background-color: white;
-  padding: 20px;
-  margin-top: 20px;
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
 }
 
 .column {   
-  float: left;
+    float: left;
     margin-left: 160px;
-  width: 75%;
+    width: 75%;
 }
 
 .n12:after {
-  content: "";
-  display: table;
-  clear: both;
+    content: "";
+    display: table;
+    clear: both;
 }
     
-h2 {
-margin-bottom: 5%; 
-margin-top: 5%;
+h2 { /* added styling because they put it in inline styling */ 
+    margin-bottom: 1%; 
+    margin-top: 1%;
     }
 
