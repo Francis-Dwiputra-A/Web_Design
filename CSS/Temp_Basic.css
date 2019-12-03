@@ -1,6 +1,6 @@
 body {
   font-family: Arial;
-  padding: 10px;
+  padding: 1%;
   background: #f1f1f1;
 }
 
@@ -12,7 +12,7 @@ body {
 */
 .header {
     font-family: impact;
-    font-size: 30px;
+    font-size: 175%;
     color: #101820ff;
     padding: 1.5%;
     text-align: center;
