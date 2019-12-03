@@ -1,11 +1,12 @@
 /* for the content */
-
+@media screen and (min-width:600px){
 .floating-box {
     float: left;
-    width: 250px;
+    width: 28%;
     height: 250px;
-    margin-left: 50px;
-    margin-bottom: 50px;
+    margin-left: 2.5%;
+    margin-right: 2.5%; /* Added Styling */
+    margin-bottom: 2.5%;
     border: 3px solid #73AD21; 
     padding: 0% /* Added styling because they put it in inline styling */
 }
@@ -16,7 +17,7 @@
 
 .floating-box img {  /* Added styling because they put it in inline styling */
     height: 150px;
-    width: 150px;
+    width: 50%;
 }
 /* size of box */
 * {
@@ -47,5 +48,60 @@ h2 { /* they put the styling as an inline styling instead of external styling */
 
 .header h1 {
   font-size: 20%;
-    
+    }
+}
+
+/* for the content */
+@media screen and (max-width:600px){
+.floating-box {
+    float: left;
+    width: 45%;
+    height: 150px;
+    margin-left: 2.5%;
+    margin-right: 2.5%; /* Added Styling */
+    margin-bottom: 2.5%;
+    border: 3px solid #73AD21; 
+    padding: 0% /* Added styling because they put it in inline styling */
+}
+
+.floating-box h1,p {  /* Added styling because they put it in inline styling */
+    text-align: center;
+}
+
+.floating-box img {  /* Added styling because they put it in inline styling */
+    height: 75px;
+    width: 50%;
+}
+/* size of box */
+* {
+  box-sizing: border-box;
+}
+/* for the font style in body  */
+body {
+  font-family: Arial;
+  padding: 0.1%;
+  
+}
+
+/* Added stylings */
+h2 { /* they put the styling as an inline styling instead of external styling */
+    /*
+    margin-top : 5%; 
+    margin-bottom : 5%;*/
+    margin-top : 1.5%; /* modified style because we think the gap is too big */
+    margin-bottom: 1.5%;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 1.5%;
+  text-align: center;
+  background: #FCF951FF;
+}
+
+.header h1 {
+  font-size: 20%;
+    }
+}
+
 
