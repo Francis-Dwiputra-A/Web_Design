@@ -23,6 +23,8 @@ h1{
 .tulisan_login{
 	text-align: center;
 	text-transform: uppercase;
+	/*modified style*/
+    	color: white;
 }
  /* for square login */
 .kotak_login{
