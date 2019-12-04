@@ -1,13 +1,13 @@
 /* for the position div */
 .media{
     background-color: white;
-    padding: 20px;
-    margin-top: 20px;
+    padding: 2%;
+    margin-top: 2%;
 }
 
 .column {   
     float: left;
-    margin-left: 160px;
+    margin-left: 16%;
     width: 75%;
 }
 
