@@ -55,6 +55,7 @@ label {
 }
 /* to change colour the text of hyperlink */
 .link {
+	/*modified style color: white;*/
     color: chartreuse;
     text-decoration: none;
     font-size: 10pt;
