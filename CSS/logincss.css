@@ -70,3 +70,9 @@ label{
 	text-decoration: none;
 	font-size: 10pt;
 }
+
+@media only screen and (max-width: 400px) {
+    .kotak_login{
+	   width: 250px;
+    }
+
