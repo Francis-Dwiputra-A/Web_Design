@@ -30,3 +30,11 @@ h2 { /* added styling because they put it in inline styling */
     padding: 0;
   }
 }
+
+@media screen and (max-width: 900px) and (min-width: 700px) { /* 800 x 500 */
+    iframe {   
+    width: 80%;
+    height: 400px;
+    padding: 0;
+  }
+}
