@@ -22,8 +22,17 @@ h2 { /* added styling because they put it in inline styling */
     margin-top: 1%;
     }
 
-iframe { /* added style for video player */
-    width:60%;
-    height:400px;
+
+@media screen and (max-width: 600px) {
+    iframe {   
+    width: 100%;
+    padding: 0;
+  }
 }
 
+@media screen and (min-width: 600px) {
+    iframe {   
+    width: 100%;
+    padding: 0;
+  }
+}
