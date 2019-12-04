@@ -27,6 +27,8 @@ body {
 .content_sign {
     text-align: center;
     text-transform: uppercase;
+	/*modifed style*/
+    color: white;
 }
 /* for make colomn be tidied */
 label {
