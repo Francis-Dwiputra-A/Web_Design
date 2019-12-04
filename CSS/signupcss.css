@@ -63,3 +63,9 @@ label {
     text-decoration: none;
     font-size: 10pt;
 }
+
+@media only screen and (max-width: 400px) {
+    .box_signup{
+	   width: 250px;
+    }
+
