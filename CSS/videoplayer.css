@@ -1,13 +1,13 @@
 /* for the position div */
 .media{
     background-color: white;
-    padding: 2%;
-    margin-top: 2%;
+    padding: 20px;
+    margin-top: 20px;
 }
 
 .column {   
     float: left;
-    margin-left: 16%;
+    margin-left: 160px;
     width: 75%;
 }
 
@@ -23,16 +23,10 @@ h2 { /* added styling because they put it in inline styling */
     }
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) and (min-width:700) { /* 750 x 1000 */
     iframe {   
-    width: 100%;
-    padding: 0;
-  }
-}
-
-@media screen and (min-width: 600px) {
-    iframe {   
-    width: 100%;
+    width: 80%;
+    height: 400px;
     padding: 0;
   }
 }
