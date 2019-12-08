@@ -42,6 +42,12 @@
         padding: 2%;
         margin-top: 2%;
     }
+/*added style because we need it to make it responsive at the about us part and visit us part*/
+    .card1 {
+        background-color: white;
+        padding: 2%;
+        margin-top: 2%;
+    }
     .card p h2 {
     float: left;
         text-align:justify ; 
@@ -53,7 +59,7 @@
       display: table;
       clear: both;
     }
-   /* To insert an image in the box */
+   /* To insert an image in the box  last creator of this css didn't make any css style for img , u can change the width and height of the picture from this css style (If you realy need picture only)(You may change the float if you want)*/
     .img img{
         float: right;
         height: auto;
@@ -65,11 +71,17 @@
     }
 
     /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
-    @media screen and (max-width: 800px) {
+@media screen and (min-width : 601px){
       .leftcolumn, .rightcolumn {   
         width:      100%;
         padding: 0;
+          float: left;
       }
+        .card1, .fakeimg{
+     width: 45%;
+            float: left;
+            margin: 10px;
+        }    
     }
   /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
     @media screen and (max-width: 600px) {
@@ -86,10 +98,29 @@
         width: 100%;
       }
 }
- /* Responsive layout - when the screen is less than 200px wide, make the navigation links stack on top of each other instead of next to each other */
-    @media screen and (max-width: 200px) {
-      .topnav a {
-        float: none;
-        width: 100%;
-      }
+ /* Responsive layout - when the screen is more than 799px width makes it normal again */
+    @media screen and (min-width: 800px) {
+   .leftcolumn {   
+      float: left;
+      width: 75%;
+    }
+
+    /* Right column */
+    .rightcolumn {
+        float: left;
+        width: 25%;
+        background-color: #f1f1f1;
+        padding-left: 1%;
+        padding-top: 0.5%;
+        padding-bottom: 0%;
+        margin-top: 0%;
+    }
+
+             .card1, .fakeimg{
+     width: 100%;
+            float: none;
+            margin top: 2%;
+                 padding: 2%;
+            margin-left: 0%;     
+        }    
 }
