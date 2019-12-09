@@ -4,7 +4,7 @@ body {
 }
 
 .header{/*Header styling for signup page*/
-    padding: 0.5%;
+    padding: 0%;
 }
 
 .header a{/*Header hyperlink styling for signup page*/
@@ -21,6 +21,7 @@ body {
     	margin :0px auto;
     	padding: 30px 20px;
     		/*modified style*/ 
+	padding-top: 15px;
     	padding-bottom: 5px;
     	border-radius: 20px;
 }
@@ -44,6 +45,9 @@ label {
     margin-bottom: 20px;
     /*modified style*/ 
     border-radius: 20px;
+	border-style: solid;
+    border: none;
+    color: grey
 }
 /* for click button */
 .sign_button {
