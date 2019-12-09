@@ -16,14 +16,18 @@
 		<b class="content_sign">sign up!</b>
     <br><br>
     <form action="login.html">
-		      <input type="text" name="name" class="form_signup" placeholder="Name">
-					<input type="text" name="username" class="form_signup" placeholder="Username">
-		      <input type="text" name="email" class="form_signup" placeholder="E-Mail Address">
-					<input type="password" name="password" class="form_signup" placeholder="Password">
-		      <input type="password" name="password" class="form_signup" placeholder="Confirm Password">
-					<input type="submit" class="sign_button" value="Register Now!">
-			<br/>
-            <br/>
+        <input type="text" name="name" class="form_signup" placeholder="Name">
+        <input type="text" name="email" class="form_signup" placeholder="E-Mail Address">
+        <input type="text" name="username" class="form_signup" placeholder="Username">
+        <select class="form_signup">
+            <option value="Your Gender">Your Gender</option>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+        </select>
+        <input type="password" name="password" class="form_signup" placeholder="Password">
+        <input type="password" name="password" class="form_signup" placeholder="Confirm Password">
+        <button class="sign_button" onclick="alert('Welcome to BioSmart! Please Sign In Now')">Register Now!</button>
+			<br/><br/>
 			<center>
 				<a class="link" href="login.html">Already have an account?</a>
 			</center>
