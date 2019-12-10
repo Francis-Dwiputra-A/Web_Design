@@ -42,7 +42,8 @@ label {
     width: 100%;
     padding: 10px;
     font-size: 11pt;
-    margin-bottom: 20px;
+    /*modified style margin-bottom: 20px;*/
+    margin-bottom: 10px;
     /*modified style*/ 
     border-radius: 20px;
 	border-style: solid;
@@ -66,6 +67,25 @@ label {
     color: chartreuse;
     text-decoration: none;
     font-size: 10pt;
+}
+
+.form_birthday {
+    box-sizing: border-box;
+    width: 32%;
+    padding: 10px;
+    font-size: 11pt;
+    margin-bottom: 10px; 
+    border-radius: 20px;
+    border-style: solid;
+    border: none;
+    color: grey
+}
+
+.text{
+    margin-top: 0%;
+    margin-bottom: 0%;
+    color: white;
+    font-size: 11pt;
 }
 
 @media only screen and (max-width: 400px) {
