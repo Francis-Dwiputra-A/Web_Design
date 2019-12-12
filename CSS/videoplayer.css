@@ -47,10 +47,9 @@ h2 { /* added styling because they put it in inline styling */
   }
 }
 
-@media screen and (max-width: 1200px) and (min-width:1000px) { /* 1000 x 1400 */
+@media screen and (max-width: 1450px) and (min-width:1000px) { /* 1000 x 1400 */
     iframe {   
-    width: 80%;
-    height: 500px;
-    padding: 0;
+    width: 70%;
+    height: 600px;
   }
 }
