@@ -18,10 +18,17 @@
     height: 150px;
     width: 50%;
 }
+
+.floating-box:hover{
+    background-color:aqua
+}
+
+#out{float: right}
 /* size of box */
 * {
   box-sizing: border-box;
 }
+
 /* for the font style in body  */
 body, p {
   font-family: Arial;
@@ -69,7 +76,7 @@ h2 { /* they put the styling as an inline styling instead of external styling */
     }
 
 .floating-box img {
-    height:100px;
+    height: 100px;
     width: 70%;
 }
 }
