@@ -56,6 +56,10 @@ h2 { /* they put the styling as an inline styling instead of external styling */
 .header h1 {
   font-size: 20%;
     }
+
+.footer {
+ clear : both;
+}
 @media only screen and (max-width:980px){
     .floating-box {
     float: left;
