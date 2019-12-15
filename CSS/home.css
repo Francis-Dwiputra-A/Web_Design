@@ -57,7 +57,7 @@
         padding: 2%;
         margin-top: 2%;
     }
-/*To make*/
+/*To make all of the text in p element and h2 with the text alignment justify*/
     .card p h2 {
     text-align:justify ; 
     }
