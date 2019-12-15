@@ -37,7 +37,7 @@
       width: 100%;
       padding: 2%;
     }
-    /*To carry the image*/
+    /*To carry the image ; This style is used when you need to insert any picture if you dont need, dont use this style*/
     .box{
     float: right;
     width: 25%;
@@ -61,7 +61,7 @@
     text-align:justify ; 
     }
 
-   /* To insert an image in the box */
+   /* To insert an image in the box Recommended ratio of the picture is 1:1 */
     .img img{
         width: 100%;
     }
