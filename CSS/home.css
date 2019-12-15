@@ -31,18 +31,25 @@
         padding-top: 0.7%;
     }
 
-    /* Fake image */
-    .fakeimg {
+    /*For the name in about box*/
+    .aboutnm {
       background-color: white;
       width: 100%;
       padding: 2%;
     }
-
+    /*To carry the image*/
+    .box{
+    float: right;
+    width: 25%;
+    background-color:white;
+    padding-top: 0%;
+    }
     /* Add a card effect for articles */
     .card {
         background-color: white;
         padding: 2%;
         margin-top: 2%;
+        width: 100%;
     }
 /*added style because we need it to make it responsive at the about us part and visit us part*/
     .card1 {
@@ -51,15 +58,12 @@
         margin-top: 2%;
     }
     .card p h2 {
-    float: left;
     text-align:justify ; 
     }
 
    /* To insert an image in the box */
     .img img{
-        float: right;
-        height: auto;
-        width: 10%;
+        width: 100%;
     }
    /* Added style this style is used to clear both of the float*/
     .clear{
@@ -73,18 +77,25 @@
         padding: 0;
           float: left;
       }
-        .card1, .fakeimg{
+        .card1, .aboutnm{
             width: 45%;
             float: left;
             margin: 10px;
-        }    
+        }   
+    .box{
+        padding-top: 5%;
+    }
     }
   /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
     @media screen and (max-width: 600px) {
       .leftcolumn, .rightcolumn {   
         width:      100%;
         padding: 0;
-      }
+      } 
+        .box{
+        padding-top: 10%;
+    }
+       
     }
 
     /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
@@ -92,7 +103,13 @@
       .topnav a {
         float: none;
         width: 100%;
-      }
+    }
+    .box{
+        padding-top: 30%;
+        width: 20%;
+    }
+        /*note: best picture position only at 500+px*/ 
+        
 }
  /* Responsive layout - when the screen is more than 799px width makes it normal again */
     @media screen and (min-width: 800px) {
@@ -103,20 +120,47 @@
 
     /* Right column */
     .rightcolumn {
-        float: left;
-        width: 25%;
-        background-color: #f1f1f1;
-        padding-left: 1%;
-        padding-top: 0.7%;
-        padding-bottom: 0%;
-        margin-top: 0%;
+    float: left;
+    width: 25%;
+    background-color: #f1f1f1;
+    padding-left: 1%;
+    padding-top: 0.7%;
+    padding-bottom: 0%;
+    margin-top: 0%;
     }
 
-             .card1, .fakeimg{
-     width: 100%;
-            float: none;
-            margin top: 2%;
-                 padding: 2%;
-            margin-left: 0%;     
+    .card1, .aboutnm{
+    width: 100%;
+    margin top: 2%;
+    padding: 2%;
+    margin-left: 0%;     
+        }    
+    .box{
+    padding-top:0%;     
+    float: right;
+    width: 25%;
+    background-color:white;
         }    
 }
+
+.button { /* this is style for button. if we click this button, it will go to the course page */
+        background: linear-gradient(to right, #f09819, #edde5d); 
+		border: 2px solid #cecece;
+		border-radius: 40px;
+		padding: 30px;
+        font-size: 15px;
+        box-shadow: 2px 2px 6px;
+	}
+/*note box-shadow : 1st: range from left 2nd: range from top 3rd: range of the shadow*/
+.button a{ /* this is style for the link in the button*/
+text-decoration: none;
+color: white;}
+
+.button:hover{ /* this is style for button.when we hovering our pointer on the button*/
+        background: linear-gradient(to right, #f09819, #edde5d);
+		box-shadow: 2px 2px 8px;
+	}
+
+.button:hover a{ /* this is style for button.Whe we hovering our pointer on the button the text color will turn into black*/
+        color: black;
+	}
