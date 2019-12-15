@@ -5,14 +5,7 @@
     margin-top: 20px;
 }
 
-.column {   
-    float: left;
-    margin-left: 160px;
-    width: 75%;
-}
-
-.n12:after {
-    content: "";
+.n12 {
     display: table;
     clear: both;
 }
