@@ -1,19 +1,49 @@
+.topnav a:hover {
+    background-color: #ddd;
+    color:black;
+}
+
+#out{
+    float: right;
+}
+
+
 /* for the position div */
+.content{
+    margin: 1%;
+}
+
 .media{
     background-color: white;
     padding: 20px;
     margin-top: 20px;
 }
 
-.n12 {
+.n12:after { 
     display: table;
     clear: both;
+}
+
+
+h1.tl {
+    color: lightslategray;
 }
 
 h2 { /* added styling because they put it in inline styling */ 
     margin-bottom: 1%; 
     margin-top: 1%;
     }
+
+h2.title{
+    margin-bottom: 3%;
+    margin-top: 0.5%;
+    color: navy;
+}
+
+h3 {
+    margin-bottom: 0.5%;
+    margin-top: 5%;
+}
 
 
 @media screen and (max-width: 800px) and (min-width:700) { /* 750 x 1000 */
