@@ -19,11 +19,6 @@
     margin-top: 20px;
 }
 
-.n12:after { 
-    display: table;
-    clear: both;
-}
-
 
 h1.tl {
     color: lightslategray;
@@ -50,7 +45,6 @@ h3 {
     iframe {   
     width: 80%;
     height: 300px;
-    padding: 0;
   }
 }
 
@@ -58,7 +52,6 @@ h3 {
     iframe {   
     width: 80%;
     height: 400px;
-    padding: 0;
   }
 }
 
@@ -66,7 +59,6 @@ h3 {
     iframe {   
     width: 80%;
     height: 600px;
-    padding: 0;
   }
 }
 
